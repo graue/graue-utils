@@ -1,4 +1,4 @@
-strlcat.c, strlcpy.c: Written by Todd C. Miller, MIT licensed, see
+strlcat.c, strlcpy.c: Written by Todd C. Miller, ISC licensed, see
 those files for details.
 
 
