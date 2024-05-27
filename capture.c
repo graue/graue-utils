@@ -14,6 +14,10 @@ of time even if it's not immediately needed.
 #include <unistd.h>
 #include <poll.h>
 
+#ifndef INFTIM
+#define INFTIM (-1)
+#endif
+
 static void usage(void)
 {
 	fprintf(stderr, "usage: capture [buffer size]\n");
